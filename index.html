@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image galery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/svg/gradient.png" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo header-right">
+        <img src="assets/svg/logo1.png" alt="logo" class="logo-img" />
+        <div class="logo-text">Galery</div>
+      </div>
+      <div class="search-box">
+        <input
+          type="search"
+          placeholder="Search..."
+          class="search"
+          onclick="loadImg"
+          autofocus
+          autocomplete="off"
+        />
+        <i class="fa-solid fa-magnifying-glass search-button"></i>
+      </div>
+    </header>
+
+    <main>
+      <div class="collection"></div>
+    </main>
+
+    <footer class="footer">
+      <div class="github">
+        <a href="https://github.com/vikuli" class="github-link"
+          ><img
+            src="assets/svg/GitHub-Mark-Light-64px.png"
+            alt="github"
+            class="github-logo"
+        /></a>
+      </div>
+      <div class="year">2022</div>
+      <div class="rsschool">
+        <a href="https://rs.school/js-stage0/" class="rs-link"
+          ><img
+            src="https://rs.school/images/rs_school_js.svg"
+            alt="rsschool"
+            class="rsschool-logo"
+        /></a>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/b625445dbb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
